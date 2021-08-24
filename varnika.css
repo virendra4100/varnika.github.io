@@ -103,7 +103,7 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top {
         margin-bottom: 1rem;
         border: 0;
         border-top: 1px solid black;
-        width: 340px;
+        ;
     }
 
     * {box-sizing: border-box}
@@ -182,9 +182,10 @@ q {font-style: italic;}
 .about {
     padding-top: 50px;
 }
-.us{color: darkred;}
+.text{color: darkred;}
 .para{font-size: 13px;}
-h2.us {
+
+h2.text {
     padding-top: 28px;
 }
 .col-md-3 {
