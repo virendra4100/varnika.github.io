@@ -1,31 +1,5 @@
-.carousel-item {
-    ;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .carousel-caption {
-    bottom: 270px;
-  }
   
-  .carousel-caption h5 {
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-  }
-  
-  .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
-  }
-  
-  .navbar-light .navbar-brand {
+  .navbar-light .golu {
     color: black;
     font-size: 25px;
     text-transform: uppercase;
@@ -34,11 +8,11 @@
     font-family: 'Courier New', Courier, monospace;
   }
   
-  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  .navbar-light .navbar-nav .active > .aman, .navbar-light .navbar-nav .aman.active, .navbar-light .navbar-nav .aman.show, .navbar-light .navbar-nav .show > .aman {
     color: #fff;
   }
   
-  .navbar-light .navbar-nav .nav-link {
+  .navbar-light .navbar-nav .aman {
     color: #fff;
   }
   
@@ -50,11 +24,11 @@
     text-align: center;
   }
   
-  .nav-link {
+  .aman {
     padding: .2rem 1rem;
   }
   
-  .nav-link.active,.nav-link:focus{
+  .aman.active,.aman:focus{
     color: #fff;
   }
   
@@ -64,16 +38,16 @@
     line-height: 0.3;
   }
   
-  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  .navbar-light .navbar-nav .aman:focus, .navbar-light .navbar-nav .aman:hover {
     color: #fff;
   }
-  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  .navbar-light .navbar-nav .active > .aman, .navbar-light .navbar-nav .aman.active, .navbar-light .navbar-nav .aman.show, .navbar-light .navbar-nav .show  .aman {
     color: black;
 }  
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .aman {
     color: #090909;
 }
-a.nav-link {
+a.aman {
     color: black;
 }
 nav.navbar.navbar-expand-lg.navbar-light.fixed-top {
@@ -177,8 +151,8 @@ body {font-family: Verdana, sans-serif; margin:0}
 /* Add an italic font style to all quotes */
 q {font-style: italic;}
 
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
+/* Add a blue color to the writer */
+.writer {color: cornflowerblue;}
 .about {
     padding-top: 50px;
 }
@@ -233,3 +207,8 @@ footer {
     min-height: auto;
     padding: 10px 0px 25px 0px;
 }
+.aman.active, .aman:focus {
+  color: black;
+  text-decoration: none;
+}
+.holu{text-align: center;}
